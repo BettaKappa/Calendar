@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="cld.DayCardUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:cld"
+             xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+             mc:Ignorable="d" 
+             d:DesignHeight="80" d:DesignWidth="80">
+    <Grid Background="#FF424141">
+        <Label 
+            Name="DateLbl"
+            Foreground="White"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Content="30" 
+            Margin="10,10,40,40"
+            />
+        <Border Width="40" Height="40" Margin="40,40,0,0">
+            <ui:SymbolIcon Name="ChosenSy" Symbol="BorderNone20"/>
+        </Border>
+
+    </Grid>
+</UserControl>
